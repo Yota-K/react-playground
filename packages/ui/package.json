@@ -1,0 +1,19 @@
+{
+  "name": "@packages/ui",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "format": "pnpm format:eslint && pnpm format:prettier",
+    "format:eslint": "eslint --fix .",
+    "format:prettier": "prettier --cache --write ."
+  },
+  "devDependencies": {
+    "@packages/configs": "workspace:^",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

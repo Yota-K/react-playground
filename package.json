@@ -1,0 +1,22 @@
+{
+  "name": "react-playground",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "dev": "turbo run dev --filter @app/spa",
+    "format": "pnpm format:eslint && pnpm format:prettier",
+    "format:eslint": "eslint --fix .",
+    "format:prettier": "prettier --cache --write ."
+  },
+  "devDependencies": {
+    "@packages/configs": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "prettier": "^3.2.5",
+    "turbo": "^1.13.3"
+  }
+}
