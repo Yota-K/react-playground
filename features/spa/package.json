@@ -1,0 +1,20 @@
+{
+  "name": "@features/spa",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "format": "pnpm format:eslint && pnpm format:prettier",
+    "format:eslint": "eslint --fix .",
+    "format:prettier": "prettier --cache --write ."
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@packages/configs": "workspace:^",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22"
+  }
+}
